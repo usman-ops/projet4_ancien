@@ -685,7 +685,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: unset;
     margin: auto auto auto auto;
 }
 
