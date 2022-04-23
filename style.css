@@ -746,11 +746,18 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
+    
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+display: flex;
+
+}
+.two{
+    width: 100%;
 }
 
 .avatar {
@@ -1042,4 +1049,14 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    
 }
+@media all and (max-device-width: 480px){
+    .portfolio-row{
+        flex-direction: column;
+align-items: center;
+    }
+}
+
+
+
