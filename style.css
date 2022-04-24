@@ -688,6 +688,9 @@ p {
     max-width: unset;
     margin: auto auto auto auto;
 }
+.mg-lg{
+    color: #FFF !important;
+}
 
 .h1 {
     font-size: 20px;
